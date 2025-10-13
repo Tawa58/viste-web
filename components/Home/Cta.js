@@ -71,7 +71,7 @@ const Cta = () => {
                       exceptional learning facilities.
                     </p>
                     <Link href="/admission" passHref>
-                    <a href="https://wa.me/+263789984774" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/+2630789984774" target="_blank" rel="noreferrer">
                               Apply and Chat with us on WhatsApp
                            </a>
                       
