@@ -21,8 +21,8 @@ export default function Home() {
       <Features />
       <AboutArea 
         principalImage="/assets/img/about/22.png"
-        principalName="Elite School for Kids"
-        schoolName="Elite School for Kids"
+        principalName="Caxton (Buffalo) Nyathi"
+        schoolName="Principal at VISTEM"
         about_pt=""
       />
       <CounterArea />

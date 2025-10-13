@@ -26,7 +26,7 @@ const PrincipalMessage = () => {
             <div className="col-lg-7">
               <div style={{ background: "#fff", borderRadius: "12px", padding: "2.5rem 2rem", boxShadow: "0 4px 24px rgba(0,0,0,0.08)" }}>
                 <h3 style={{ fontWeight: 700, marginBottom: "1rem" }}>Visionary Institute Of Science & Tech</h3>
-                <h4 style={{ fontWeight: 600, marginBottom: "1.5rem" }}>Principal's Message</h4>
+                <h4 style={{ fontWeight: 600, marginBottom: "1.5rem" }}>Principal&apos;s Message</h4>
                 <h5 style={{ fontWeight: 500, marginBottom: "1.5rem" }}>Mr Caxton (Buffalo) Nyathi</h5>
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem" }}>
                   Welcome to Visionary Institute of Science and Technology, where we foster academic excellence and personal growth. Our mission is to empower every student to reach their full potential through a comprehensive curriculum, dedicated teachers, and modern facilities.

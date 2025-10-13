@@ -41,8 +41,20 @@ const AboutArea = ({
           {/* Right Column - Principal's Message */}
           <div className="col-xxl-7 col-xl-7 col-lg-7 order-lg-1 order-2">
             <div className="about__content pl-30 pr-25 text-lg-start text-center" style={{ background: "#fff", borderRadius: "16px", boxShadow: "0 4px 24px rgba(0,0,0,0.08)", padding: "2rem" }}>
-              <p style={{ fontSize: "1.1rem", color: "#333" }}>
-                Welcome to Vissionary Institute of Science and Technology, where we are dedicated to fostering an environment of academic excellence and personal growth. Our mission is to empower every student to reach their full potential through a comprehensive and innovative curriculum, dedicated teachers, and modern facilities.
+              <div className="section__title-wrapper mb-15">
+                <span className="section__title-pre">
+                  {schoolName || "Vissionary Institute of Science & Tech"}
+                </span>
+                <h2 className="section__title">Principal&apos;s Message</h2>
+              </div>
+              <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.2rem" }}>
+                Welcome to {schoolName || "Vissionary Institute of Science and Technology"}, where excellence is not just our goal&mdash;it&apos;s our standard. Since our establishment in 2020, we have been on an extraordinary journey of academic achievement and holistic development that has positioned us as a leading educational institution.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#333", marginBottom: "1.2rem" }}>
+                We are proud to have consistently achieved outstanding pass rates of more than 78% in both ZIMSEC and Cambridge examinations. As a full boarding school, we provide a nurturing and secure environment where students from diverse backgrounds come together to learn, grow, and form lifelong friendships.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#333", marginBottom: "1.2rem" }}>
+                Our modern boarding facilities are designed to be a home away from home, with 24-hour supervision and a structured program that balances academic rigor with recreational activities. We are committed to producing well-rounded individuals who are not only academically competent but also morally upright and socially responsible citizens.
               </p>
               <div className="about__btn">
                 <Link href="/principal-message">
