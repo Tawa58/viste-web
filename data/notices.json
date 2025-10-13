@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "School Reopening Notice",
+      "content": "We are pleased to announce that the school will reopen on January, 2026. Please check your emails for further instructions.",
+      "date": "----"
+    },
+    {
+      "id": 2,
+      "title": "Examination Schedule Released",
+      "content": "The examination schedule for the upcoming term has not been released. Please refer to the notice for details and timings.",
+      "date": "----"
+    },
+    {
+      "id": 3,
+      "title": "Holiday Announcement",
+      "content": "no current holiday schedule",
+      "date": "------"
+    },
+    {
+      "id": 4,
+      "title": "Parent-Teacher Meeting",
+      "content": "we just did our meeting of the year 2025 and we will notify on the next school meeting for 2026",
+      "date": " ----"
+    },
+    {
+      "id": 5,
+      "title": "Library Book Submission Reminder",
+      "content": "Students are reminded to return their borrowed library books before the due date, to avoid late fines.",
+      "date": "-----"
+    },
+    {
+      "id": 6,
+      "title": "Sports Day Announcement",
+      "content": " no information for now",
+      "date": "----"
+    },
+    {
+      "id": 7,
+      "title": "Science Fair Registration Open",
+      "content": "Registrations for the Tertiary courses is underway for 2026 January classes.",
+      "date": "-----"
+    },
+    
+    {
+      "id": 9,
+      "title": "New School Uniform Guidelines",
+      "content": "Starting January 2026, new uniform guidelines will be implemented. Please check the school website for details.",
+      "date": "2026-01-01"
+    }
+    
+  ]
+  

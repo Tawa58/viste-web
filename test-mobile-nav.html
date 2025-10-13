@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation Test</title>
+    <link rel="stylesheet" href="/assets/css/mobile-nav.css">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .test-header { background: #f8f9fa; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: bold; font-size: 18px; }
+        .test-content { padding: 20px; }
+    </style>
+</head>
+<body>
+    <div class="test-header">
+        <div class="logo">VISTE Test</div>
+        <div class="header__hamburger d-xl-none">
+            <button type="button" class="hamurger-btn" onclick="openSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="test-content">
+        <h1>Mobile Navigation Test</h1>
+        <p>Click the hamburger button above to test the mobile sidebar.</p>
+        <p>This test page verifies that the mobile navigation styles are working correctly.</p>
+    </div>
+
+    <!-- Test Sidebar -->
+    <div class="mobile-sidebar-backdrop hide" id="backdrop" onclick="closeSidebar()"></div>
+    <div class="mobile-sidebar hide" id="sidebar">
+        <div style="padding: 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-weight: bold; color: #0d6efd;">VISTE</div>
+            <button onclick="closeSidebar()" style="background: none; border: none; font-size: 20px; cursor: pointer;">&times;</button>
+        </div>
+        <div style="padding: 20px;">
+            <div style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #333; display: block; padding: 10px 0;">Home</a></div>
+            <div style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #333; display: block; padding: 10px 0;">About</a></div>
+            <div style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #333; display: block; padding: 10px 0;">Courses</a></div>
+            <div style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #333; display: block; padding: 10px 0;">Contact</a></div>
+        </div>
+    </div>
+
+    <script>
+        function openSidebar() {
+            console.log('Opening sidebar...');
+            document.getElementById('backdrop').classList.remove('hide');
+            document.getElementById('backdrop').classList.add('show');
+            document.getElementById('sidebar').classList.remove('hide');
+            document.getElementById('sidebar').classList.add('show');
+            document.body.classList.add('mobile-menu-open');
+        }
+
+        function closeSidebar() {
+            console.log('Closing sidebar...');
+            document.getElementById('backdrop').classList.remove('show');
+            document.getElementById('backdrop').classList.add('hide');
+            document.getElementById('sidebar').classList.remove('show');
+            document.getElementById('sidebar').classList.add('hide');
+            document.body.classList.remove('mobile-menu-open');
+        }
+
+        // Test CSS loading
+        window.onload = function() {
+            console.log('Test page loaded');
+            console.log('CSS file should be loaded from /assets/css/mobile-nav.css');
+        }
+    </script>
+</body>
+</html>

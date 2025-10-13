@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "1",
+    "title": "National Sports Championship",
+    "description": "Our school triumphantly clinched the historic national championship in track and field this year, with our dedicated team setting several new state and national records across multiple events.",
+    "img_bg": "/assets/img/blog/achievement.png",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Sports",
+    "date": "2025"
+  },
+  {
+    "_id": "2",
+    "title": "VISTE JUNIOR ACADEMY",
+    "description": "Elite School for Kids is dedicated to nurturing young minds in a safe, creative, and inspiring environment.Join us to experience a world-class education tailored for every child.",
+    "img_bg": "/assets/img/blog/elite.png",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Viste Elite",
+    "date": "2025"
+  },
+  {
+    "_id": "4",
+    "title": "School at a Glance1",
+    "description": "Leading with spirit, these students and their principal represent the very best of our school community, united by a commitment to learning, growth, and shared success for the future",
+    "img_bg": "/assets/img/blog/achievement-3.jpg",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Future in Focus",
+    "date": "2025"
+  },
+  {
+    "_id": "5",
+    "title": "Dedicated Staff",
+    "description": "At Viste , We have a dedicated team of passionate staff members and strong leadership, committed to supporting every student's success. ",
+    "img_bg": "/assets/img/blog/a.jpg",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Leadership and Staff",
+    "date": "2025"
+  },
+  {
+    "_id": "6",
+    "title": "School Spirit Adventures",
+    "description": "This emphasizes community, fun, and bonding by showcasing our shared student and teacher adventures. These trips build supportive relationships, create lasting memories.",
+    "img_bg": "/assets/img/blog/com.jpg",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Community",
+    "date": "2025"
+  },
+  {
+    "_id": "7",
+    "title": "Our School-Home Connection",
+    "description": "We strongly  believe that education is a true partnership. This showcases moments from our AGM where dedicated parents, students & leaders connect, ensuring every child is supported so as to succeed",
+    "img_bg": "/assets/img/blog/p.jpg",
+    "teacher_img": "/assets/img/team/default-teacher.jpg",
+    "tutor_name": "Partnering for Student Success",
+    "date": "2025"
+  }
+]
