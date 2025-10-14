@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import links from "../../data/linkData";
 
@@ -13,6 +14,60 @@ const Sidebar = ({ show, handleClose }) => {
       [linkId]: !prev[linkId]
     }));
   };
+
+  // Create mobile-specific navigation structure
+  const mobileLinks = links.map(link => {
+    if (link.name === 'About') {
+      // Make About a direct link without submenu
+      return {
+        ...link,
+        url: '/about',
+        submenu: undefined
+      };
+    }
+    if (link.name === 'Academics') {
+      // Remove submenu from Academics, make it a direct link or remove it
+      return {
+        ...link,
+        submenu: undefined,
+        url: '#' // or remove this link entirely if not needed
+      };
+    }
+    if (link.name === 'Gallery') {
+      // Make Gallery a direct link without submenu
+      return {
+        ...link,
+        url: '/gallery',
+        submenu: undefined
+      };
+    }
+    return link;
+  });
+
+  // Add independent options
+  const principalMessageLink = {
+    id: 'principal-message',
+    url: '/principal-message',
+    name: "Principal's Message"
+  };
+
+  const holidaysListLink = {
+    id: 'holidays-list',
+    url: '/holidays-list',
+    name: 'Holidays List'
+  };
+
+  const noticeLink = {
+    id: 'notice',
+    url: '/notice',
+    name: 'Notice'
+  };
+
+  // Insert independent options after About
+  const aboutIndex = mobileLinks.findIndex(link => link.name === 'About');
+  if (aboutIndex !== -1) {
+    mobileLinks.splice(aboutIndex + 1, 0, principalMessageLink, holidaysListLink, noticeLink);
+  }
 
   return (
     <>
@@ -31,7 +86,7 @@ const Sidebar = ({ show, handleClose }) => {
         {/* Header */}
         <div className="sidebar-header">
           <div className="sidebar-logo">
-            <img src="/assets/img/logo/logo.png" alt="Logo" width={50} height={60} />
+            <Image src="/assets/img/logo/logo.png" alt="Logo" width={50} height={60} />
           </div>
           <button
             className="sidebar-close-btn"
@@ -47,7 +102,7 @@ const Sidebar = ({ show, handleClose }) => {
         {/* Navigation */}
         <div className="sidebar-nav">
           <nav>
-            {links.map((link) => (
+            {mobileLinks.map((link) => (
               <div key={link.id} className="nav-item">
                 {link.submenu && link.submenu.length > 0 ? (
                   <div>

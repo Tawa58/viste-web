@@ -173,7 +173,7 @@ const Header = () => {
           className="mobile-sidebar-nav-btn d-lg-none"
           aria-label="Open navigation sidebar"
           style={{
-            position: 'absolute',
+            position: 'fixed',
             top: 'calc(15px - 0.5em)',
             right: '1.2em',
             zIndex: 1000,
