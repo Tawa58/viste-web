@@ -58,7 +58,7 @@ const PrincipalMessage = () => {
                 </p>
 
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  At VISTEM, we don't just educate—we inspire, challenge, and empower. Every student matters, every dream is nurtured, and every achievement is celebrated as we build the leaders of tomorrow.
+                  At VISTEM, we don&apos;t just educate—we inspire, challenge, and empower. Every student matters, every dream is nurtured, and every achievement is celebrated as we build the leaders of tomorrow.
                 </p>
 
                 <p style={{ fontSize: "1.1rem", color: "#1a237e", marginBottom: "0.5rem", fontWeight: 600 }}>
