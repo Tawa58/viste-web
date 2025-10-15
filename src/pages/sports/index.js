@@ -6,7 +6,12 @@ import SEO from "../../../components/seo";
 const SportsPage = () => {
   return (
     <>
-      <SEO pageTitle="Sports" />
+      <SEO 
+        pageTitle="Sports" 
+        description="Sports and athletics at VISTEM Academy Norton under Principal Caxton Buffalo Nyathi. Building character through sports excellence in Norton, Nharira, Zimbabwe."
+        keywords="VISTEM Academy sports Norton, school athletics Norton Zimbabwe, sports programs Nharira, physical education Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw/sports"
+      />
       <Header />
       <div>
         <h1>Sports</h1>

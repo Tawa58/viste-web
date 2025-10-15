@@ -14,7 +14,12 @@ import Achievements from "../../components/achievements/Achievements";
 export default function Home() {
   return (
     <>
-      <SEO pageTitle="Home Default" />
+      <SEO 
+        pageTitle="Home"
+        description="VISTEM Academy Norton - Premier boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Achieving 78%+ pass rates in ZIMSEC & Cambridge. Excellence in Science, Technology, Mathematics, Commerce & Arts education."
+        keywords="VISTEM Academy Norton, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Nharira, science technology mathematics school Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw"
+      />
       <LoadingScreen />
       <Header />
       <HeroArea />

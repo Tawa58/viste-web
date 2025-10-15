@@ -8,7 +8,12 @@ import SEO from "../../../components/seo";
 const SignIn = () => {
   return (
     <>
-      <SEO pageTitle="Gallery" />
+      <SEO 
+        pageTitle="Gallery" 
+        description="Photo gallery of VISTEM Academy Norton showcasing school facilities, student life and activities under Principal Caxton Buffalo Nyathi in Norton, Nharira, Zimbabwe."
+        keywords="VISTEM Academy gallery Norton, school photos Norton Zimbabwe, campus facilities Nharira, student life Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw/gallery"
+      />
       <Header />
       {/* <BreadCrumb title="Principal Message" subtitle="Principal Message" /> */}
       <Gallery />

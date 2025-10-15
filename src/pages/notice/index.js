@@ -8,7 +8,12 @@ import SEO from "../../../components/seo";
 const SignIn = () => {
   return (
     <>
-      <SEO pageTitle="Principal Message" />
+      <SEO 
+        pageTitle="Notices" 
+        description="Important notices and announcements from VISTEM Academy Norton under Principal Caxton Buffalo Nyathi. Stay updated with school news, events and announcements in Norton, Nharira, Zimbabwe."
+        keywords="VISTEM Academy notices Norton, school announcements Norton Zimbabwe, school news Nharira, important notices Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw/notice"
+      />
       <Header />
       {/* <BreadCrumb title="Principal Message" subtitle="Principal Message" /> */}
       

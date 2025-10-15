@@ -14,7 +14,12 @@ import SEO from '../../../components/seo';
 export default function extraactivites() {
   return (
     <>
-       <SEO pageTitle="Extra Curicullar" />
+       <SEO 
+        pageTitle="School Activities" 
+        description="Discover extracurricular activities at VISTEM Academy Norton under Principal Caxton Buffalo Nyathi. Sports, clubs, cultural events and academic competitions in Norton, Nharira, Zimbabwe."
+        keywords="VISTEM Academy activities Norton, extracurricular activities Norton Zimbabwe, school sports Nharira, school clubs Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw/school-activities"
+      />
 
       <Header/>
       <div>

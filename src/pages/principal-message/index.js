@@ -7,7 +7,12 @@ import Footer from "../../../components/common/Footer";
 const PrincipalMessage = () => {
   return (
     <>
-      <SEO pageTitle="Principal Message" />
+      <SEO 
+        pageTitle="Principal's Message" 
+        description="Message from Principal Caxton Nyathi - VISTEM Academy Norton's commitment to academic excellence, character development and holistic education in Norton, Nharira, Zimbabwe."
+        keywords="Principal message Caxton Nyathi, VISTEM Academy Norton leadership, educational excellence Norton Zimbabwe, boarding school principal Nharira"
+        url="https://viste-online.co.zw/principal-message"
+      />
       <Header />
       <section style={{ background: "#fff", minHeight: "100vh", padding: "60px 0" }}>
         <div className="container">

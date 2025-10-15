@@ -15,7 +15,12 @@ import AchievementsComponent from '../../../components/achievements/Achievements
 export default function extraactivites() {
   return (
     <>
-       <SEO pageTitle="Extra Curicullar" />
+       <SEO 
+        pageTitle="Achievements" 
+        description="VISTEM Academy Norton achievements and academic excellence under Principal Caxton Buffalo Nyathi. Celebrating our students' outstanding performance in ZIMSEC, Cambridge and HEXCO examinations in Norton, Nharira, Zimbabwe."
+        keywords="VISTEM Academy achievements Norton, academic excellence Norton Zimbabwe, student achievements Nharira, school awards Norton, Caxton Buffalo Nyathi principal"
+        url="https://viste-online.co.zw/achievements"
+      />
 
       <Header/>
       {/* Removed Achievements component */}
