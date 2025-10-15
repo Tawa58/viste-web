@@ -169,34 +169,34 @@ const Features = () => {
   ];
 
   return (
-    <section className="features__area pb-50" style={{background: 'transparent'}}>
+    <section className="features__area pb-50">
       <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="section__title-wrapper text-center mb-40">
-              <h2 className="section__title features-title" style={{color: '#1a237e'}}>
+        <div className="row align-items-center mb-40">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-8">
+            <div className="section__title-wrapper mb-40">
+              <h2 className="section-title features-title" style={{ color: '#1a237e' }}>
                 <i className="fas fa-check-circle"></i> Why Choose Us
               </h2>
             </div>
           </div>
         </div>
-        <div className="features__inner p-relative z-index-1" style={{background: 'transparent'}}>
+        <div className="features__inner p-relative z-index-1 white-bg">
           <div className="row justify-content-center">
             {featuresData.map((feature) => (
               <div
                 key={feature.id}
                 className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"
               >
-                <div className="features__item features__border-right d-sm-flex align-items-start">
+                <div className="features__item features__border-right d-sm-flex align-items-start white-bg">
                   <div className="features__icon mr-25">{feature.icon_img}</div>
                   <div className="features__content">
                     <h3 className="features__title">
                       <Link href="/about" passHref>
-                        <a>{feature.title}</a>
+                        <a style={{ color: '#1a237e' }}>{feature.title}</a>
                       </Link>
                     </h3>
                     <Link  href="/about" passHref>
-                      <a className="link-btn pb-10">
+                      <a className="link-btn pb-10" style={{ color: '#1a237e' }}>
                         Learn More <i className="fa-regular fa-arrow-right"></i>
                       </a>
                     </Link>
@@ -207,6 +207,28 @@ const Features = () => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .features__area {
+          padding-bottom: 100px;
+        }
+        @media (max-width: 768px) {
+          .features__title {
+            font-size: 1rem;
+          }
+          .features__content a {
+            font-size: 0.875rem;
+          }
+        }
+        /* Ensure features block does not overlap hero on desktop */
+        @media (min-width: 1024px) {
+          .features__area {
+            padding-top: 24px;
+          }
+          .features__inner {
+            margin-top: 24px !important;
+          }
+        }
+      `}</style>
     </section>
   );
 };

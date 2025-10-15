@@ -16,7 +16,7 @@ const AboutArea = ({
           <span className="section__title-pre">
             {schoolName || "Vissionary Institute of Science &amp; Tech"}
           </span>
-          <h2 className="section__title">Principal&apos;s Message</h2>
+          <h2 className="section__title" style={{ color: '#1a237e' }}>Principal&apos;s Message</h2>
         </div>
         <div className="row align-items-center justify-content-center">
           {/* Left Column - Principal's Image */}
@@ -34,8 +34,26 @@ const AboutArea = ({
                 />
               </div>
             </div>
-            <h4 style={{ marginTop: "1.2rem", fontWeight: 600 }}>{principalName || "Principal"}</h4>
-            <p style={{ fontSize: "1.05rem", color: "#333", marginBottom: 0 }}>{schoolName || "Vissionary Institute of Science & Tech"}</p>
+            <h4 style={{ 
+              marginTop: "1.2rem", 
+              fontWeight: 700, 
+              color: "#1a237e", 
+              fontSize: "1.4rem",
+              textAlign: "center",
+              marginBottom: "0.5rem"
+            }}>
+              {principalName || "Principal"}
+            </h4>
+            <p style={{ 
+              fontSize: "1.1rem", 
+              color: "#1a237e", 
+              marginBottom: 0, 
+              textAlign: "center",
+              fontWeight: 500,
+              fontStyle: "italic"
+            }}>
+              {schoolName || "Vissionary Institute of Science & Tech"}
+            </p>
           </div>
 
           {/* Right Column - Principal's Message */}
@@ -45,7 +63,7 @@ const AboutArea = ({
                 <span className="section__title-pre">
                   {schoolName || "Vissionary Institute of Science & Tech"}
                 </span>
-                <h2 className="section__title">Principal&apos;s Message</h2>
+                <h2 className="section__title" style={{ color: '#1a237e' }}>Principal&apos;s Message</h2>
               </div>
               <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.2rem" }}>
                 Welcome to {schoolName || "Vissionary Institute of Science and Technology"}, where excellence is not just our goal&mdash;it&apos;s our standard. Since our establishment in 2020, we have been on an extraordinary journey of academic achievement and holistic development that has positioned us as a leading educational institution.

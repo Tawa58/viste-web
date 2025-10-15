@@ -4,20 +4,12 @@ const CounterArea = () => {
   return (
     <section className="counter__area pb-60">
       <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="section__title-wrapper text-center mb-40">
-              <h2 className="section-title counter-title" style={{
-                color: '#1a237e',
-                textAlign: 'center',
-                width: '100%',
-                display: 'block',
-                background: 'none',
-                WebkitBackgroundClip: 'unset',
-                WebkitTextFillColor: 'unset',
-                backgroundClip: 'unset'
-              }}>
-                <i className="fas fa-chart-bar" style={{color: '#ff6b6b', marginRight: '10px'}}></i> Our Achievements in Numbers
+        <div className="row align-items-center mb-40">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-8">
+            <div className="section__title-wrapper mb-40">
+              <h2 className="section-title counter-title">
+                <i className="fas fa-chart-bar"></i> 
+                Our Achievements in Numbers
               </h2>
             </div>
           </div>

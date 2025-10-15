@@ -25,14 +25,6 @@ const Sidebar = ({ show, handleClose }) => {
         submenu: undefined
       };
     }
-    if (link.name === 'Academics') {
-      // Remove submenu from Academics, make it a direct link or remove it
-      return {
-        ...link,
-        submenu: undefined,
-        url: '#' // or remove this link entirely if not needed
-      };
-    }
     if (link.name === 'Gallery') {
       // Make Gallery a direct link without submenu
       return {
@@ -42,7 +34,7 @@ const Sidebar = ({ show, handleClose }) => {
       };
     }
     return link;
-  });
+  }).filter(link => link.name !== 'More' && link.name !== 'Academics'); // Remove "More" and "Academics" options from mobile nav
 
   // Add independent options
   const principalMessageLink = {
