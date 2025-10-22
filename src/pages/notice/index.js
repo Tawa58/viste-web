@@ -10,8 +10,8 @@ const SignIn = () => {
     <>
       <SEO 
         pageTitle="Notices" 
-        description="Important notices and announcements from VISTEM Academy Norton under Principal Caxton Buffalo Nyathi. Stay updated with school news, events and announcements in Norton, Nharira, Zimbabwe."
-        keywords="VISTEM Academy notices Norton, school announcements Norton Zimbabwe, school news Nharira, important notices Norton, Caxton Buffalo Nyathi principal"
+        description="Important notices and announcements from VISTE SENIOR ACADEMY Norton under Principal Caxton Buffalo Nyathi. Stay updated with school news, events and announcements in Norton, Nharira, Zimbabwe."
+        keywords="VISTE SENIOR ACADEMY notices Norton, school announcements Norton Zimbabwe, school news Nharira, important notices Norton, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw/notice"
       />
       <Header />

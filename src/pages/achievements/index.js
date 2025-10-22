@@ -17,8 +17,8 @@ export default function extraactivites() {
     <>
        <SEO 
         pageTitle="Achievements" 
-        description="VISTEM Academy Norton achievements and academic excellence under Principal Caxton Buffalo Nyathi. Celebrating our students' outstanding performance in ZIMSEC, Cambridge and HEXCO examinations in Norton, Nharira, Zimbabwe."
-        keywords="VISTEM Academy achievements Norton, academic excellence Norton Zimbabwe, student achievements Nharira, school awards Norton, Caxton Buffalo Nyathi principal"
+        description="VISTE SENIOR ACADEMY Norton achievements and academic excellence under Principal Caxton Buffalo Nyathi. Celebrating our students' outstanding performance in ZIMSEC, Cambridge and HEXCO examinations in Norton, Nharira, Zimbabwe."
+        keywords="VISTE SENIOR ACADEMY achievements Norton, academic excellence Norton Zimbabwe, student achievements Nharira, school awards Norton, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw/achievements"
       />
 

@@ -71,7 +71,7 @@ const Cta = () => {
                       exceptional learning facilities.
                     </p>
                     <Link href="/admission" passHref>
-                    <a href="https://wa.me/+2630789984774?text=Hello!%20I%20would%20like%20to%20apply%20for%20admission%20at%20VISTEM%20Academy%20-%20Visionary%20Institute%20of%20Science%20and%20Technology." target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/+2630789984774?text=Hello!%20I%20would%20like%20to%20apply%20for%20admission%20at%20VISTE%20SENIOR%20ACADEMY%20-%20Visionary%20Institute%20of%20Science%20and%20Technology." target="_blank" rel="noreferrer">
                               Apply and Chat with us on WhatsApp
                            </a>
                       

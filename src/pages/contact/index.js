@@ -11,8 +11,8 @@ const Contact = () => {
     <>
       <SEO 
         pageTitle="Contact Us" 
-        description="Get in touch with VISTEM Academy Norton under Principal Caxton Buffalo Nyathi. Contact our admissions team for enrollment, school information and general inquiries. Located in Norton, Nharira, Zimbabwe. WhatsApp: +263789984774"
-        keywords="contact VISTEM Academy Norton, school admissions Norton Zimbabwe, enrollment inquiries Nharira, school contact information Norton, Caxton Buffalo Nyathi principal"
+        description="Get in touch with VISTE SENIOR ACADEMY Norton under Principal Caxton Buffalo Nyathi. Contact our admissions team for enrollment, school information and general inquiries. Located in Norton, Nharira, Zimbabwe. WhatsApp: +263789984774"
+        keywords="contact VISTE SENIOR ACADEMY Norton, school admissions Norton Zimbabwe, enrollment inquiries Nharira, school contact information Norton, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw/contact"
       />
       <Header />

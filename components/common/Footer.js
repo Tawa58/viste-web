@@ -49,20 +49,40 @@ const Footer = () => {
                           style={{
                             marginLeft: "18px",
                             fontSize: "1.15rem",
-                            color: "#1a237e",
-                            fontWeight: 700,
+                            color: "#222",
+                            fontWeight: 600,
                             verticalAlign: "middle",
                             display: "inline-block",
                           }}
                         >
-                          <span className="d-none d-lg-inline">Vissionary Institute of Science & Technology Academy</span>
-                          <span className="d-lg-none">VISTEM ACADEMY</span>
+                          Visionary Institute of Science &amp; Technology Academy
                         </span>
                       </div>
                     </div>
                     <div className="footer__widget-content">
                       <div className="footer__widget-info">
                         {/* Removed duplicate school name below the logo */}
+                        {/* This social block is visible on desktop only */}
+                        <div className="footer__social">
+                          <h4>Follow Us</h4>
+                          <ul>
+                            <li>
+                              <a className="fb">
+                                <i className="fa-brands fa-facebook-f"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a className="tw">
+                                <i className="fa-brands fa-twitter"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a className="pin">
+                                <i className="fa-brands fa-pinterest-p"></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -70,19 +90,17 @@ const Footer = () => {
                 {/* Footer Widget 2 */}
                 <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 footer-widget">
                   <div className="footer__widget footer-col-2 mb-50">
-                    <h3 className="footer__widget-title" style={{color: "#1a237e", fontWeight: "700", marginBottom: "20px"}}>Quick Links</h3>
+                    <h3 className="footer__widget-title">Quick Links</h3>
                     <div className="footer__widget-content">
-                      <ul style={{listStyle: "none", padding: 0, margin: 0}}>
-                        <li style={{marginBottom: "12px", display: "flex", alignItems: "center"}}>
-                          <i className="fas fa-info-circle" style={{color: "#1a237e", marginRight: "10px", fontSize: "14px", width: "16px"}}></i>
-                          <Link href="/about" passHref>
-                            <a style={{color: "#333", textDecoration: "none", fontSize: "15px", fontWeight: "500"}}>About us</a>
+                      <ul>
+                        <li>
+                          <Link href="/about">
+                            <a>About us</a>
                           </Link>
                         </li>
-                        <li style={{marginBottom: "12px", display: "flex", alignItems: "center"}}>
-                          <i className="fas fa-envelope" style={{color: "#1a237e", marginRight: "10px", fontSize: "14px", width: "16px"}}></i>
-                          <Link href="/contact" passHref>
-                            <a style={{color: "#333", textDecoration: "none", fontSize: "15px", fontWeight: "500"}}>Contact us</a>
+                        <li>
+                          <Link href="/contact">
+                            <a>Contact us</a>
                           </Link>
                         </li>
                       </ul>
@@ -101,7 +119,7 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-xxl-12">
                     <div className="footer__copyright text-center">
-                      <p>© 2025 VISTEM .All rights reseved</p>
+                      <p>© 2025 VISTE SENIOR ACADEMY .All rights reseved</p>
                     </div>
                   </div>
                 </div>

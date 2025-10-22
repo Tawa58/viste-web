@@ -9,8 +9,8 @@ const PrincipalMessage = () => {
     <>
       <SEO 
         pageTitle="Principal's Message" 
-        description="Message from Principal Caxton Nyathi - VISTEM Academy Norton's commitment to academic excellence, character development and holistic education in Norton, Nharira, Zimbabwe."
-        keywords="Principal message Caxton Nyathi, VISTEM Academy Norton leadership, educational excellence Norton Zimbabwe, boarding school principal Nharira"
+        description="Message from Principal Caxton Nyathi - VISTE SENIOR ACADEMY Norton's commitment to academic excellence, character development and holistic education in Norton, Nharira, Zimbabwe."
+        keywords="Principal message Caxton Nyathi, VISTE SENIOR ACADEMY Norton leadership, educational excellence Norton Zimbabwe, boarding school principal Nharira"
         url="https://viste-online.co.zw/principal-message"
       />
       <Header />
@@ -39,12 +39,12 @@ const PrincipalMessage = () => {
                 </p>
                 
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  Welcome to Visionary Institute of Science and Technology (VISTEM), where educational excellence meets holistic development. Since 2020, we have established ourselves as a leading institution, consistently achieving over 78% pass rates in ZIMSEC and Cambridge examinations.
+                  Welcome to Visionary Institute of Science and Technology (VISTE), where educational excellence meets holistic development. Since 2020, we have established ourselves as a leading institution, consistently achieving over 76% pass rates in ZIMSEC and Cambridge examinations.
                 </p>
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Our Mission</h4>
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  As a full boarding school, we provide a nurturing environment where academic excellence, character development, and innovation converge. Our modern facilities and dedicated faculty ensure every student reaches their full potential through comprehensive education and practical skills training.
+                  As a full-time boarding school, we provide a nurturing environment where academic excellence, character development, and innovation converge. Our modern facilities and dedicated faculty ensure every student reaches their full potential through comprehensive education and practical skills training.
                 </p>
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Academic Excellence</h4>
@@ -58,7 +58,7 @@ const PrincipalMessage = () => {
                 </p>
 
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  At VISTEM, we don&apos;t just educate—we inspire, challenge, and empower. Every student matters, every dream is nurtured, and every achievement is celebrated as we build the leaders of tomorrow.
+                  At VISTE SENIOR ACADEMY, we don&apos;t just educate—we inspire, challenge, and empower. Every student matters, every dream is nurtured, and every achievement is celebrated as we build the leaders of tomorrow.
                 </p>
 
                 <p style={{ fontSize: "1.1rem", color: "#1a237e", marginBottom: "0.5rem", fontWeight: 600 }}>

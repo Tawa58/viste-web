@@ -121,9 +121,9 @@ const Header = () => {
                 </Link>
               </div>
               {/* School Name */}
-              <div className="school-name" style={{ fontSize: '14px', fontWeight: '700', color: '#1a237e', whiteSpace: 'nowrap', paddingRight: '10px', marginLeft: '10px', lineHeight: '60px' }}>
-                <span className="d-none d-lg-inline">Vissionary Institute of Science & Technology Academy</span>
-                <span className="d-lg-none">VISTEM ACADEMY</span>
+              <div className="school-name" style={{ fontSize: '12px', fontWeight: '700', color: '#1a237e', whiteSpace: 'nowrap', paddingRight: '10px', marginLeft: '10px', lineHeight: '60px' }}>
+                <span className="d-none d-lg-inline">VISTE SENIOR ACADEMY</span>
+                <span className="d-lg-none">VISTE Snr Academy</span>
               </div>
             </div>
             <div className="container" style={{ paddingRight: '4px', marginRight: '4px', flex: '1 1 auto' }}>

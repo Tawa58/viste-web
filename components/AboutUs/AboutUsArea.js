@@ -30,17 +30,17 @@ const AboutUsArea = () => {
                       <i className="far fa-calendar-check"></i> Established: 2020
                     </span>
                     <span>
-                      <a href="#">
-                        <i className="far fa-user"></i> Vissionary Institute of Science and Technology
-                      </a>
+                      <span>
+                        <i className="far fa-user"></i> Visionary Institute of Science and Technology
+                      </span>
                     </span>
                   </div>
                   <h3 className="postbox__title">
-                    Welcome to Vissionary Institute of Science and Technology
+                    Welcome to Visionary Institute of Science and Technology
                   </h3>
                   <div className="postbox__text mb-40">
                     <p>
-                      Vissionary Institute of Science and Technology has been a pioneer in quality education,
+                      Visionary Institute of Science and Technology has been a pioneer in quality education,
                       nurturing young minds with values and skills to thrive in a
                       rapidly changing world. Our legacy is built on commitment,
                       excellence, and innovation.
@@ -68,11 +68,11 @@ const AboutUsArea = () => {
                     <p>
                       To learn more about our programs and campus initiatives, visit our website:{" "}
                       <a
-                        href="https://vistem-online.co.zw"
+                        href="https://viste-online.co.zw"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                       vistem-online.co.zw
+                       viste-online.co.zw
                       </a>
                     </p>
                   </div>
@@ -93,9 +93,9 @@ const AboutUsArea = () => {
                   <div className="postbox__meta-3 d-sm-flex align-items-center">
                     <span>Tags :</span>
                     <div className="tagcloud">
-                      <a href="#">Education</a>
-                      <a href="#">Excellence</a>
-                      <a href="#">Community</a>
+                      <span>Education</span>
+                      <span>Excellence</span>
+                      <span>Community</span>
                     </div>
                   </div>
                 </div>

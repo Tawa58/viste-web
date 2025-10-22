@@ -14,7 +14,7 @@ const AboutUs = () => {
               About Our School
             </h1>
             <p className="text-lg text-gray-600">
-              Welcome to Vissionary Institute of Science and Technology—where tradition meets innovation. We’re
+              Welcome to Visionary Institute of Science and Technology—where tradition meets innovation. We’re
               dedicated to creating a nurturing environment that empowers every
               student to excel.
             </p>
@@ -26,7 +26,7 @@ const AboutUs = () => {
           {[
             {
               title: "Our Journey",
-              text: "Founded in   2020 , Vissionary Institute of Science and Technology has continually evolved, setting new standards in educational excellence.",
+              text: "Founded in   2020 , Visionary Institute of Science and Technology has continually evolved, setting new standards in educational excellence.",
             },
             {
               title: "Our Mission",

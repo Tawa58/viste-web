@@ -2,16 +2,16 @@ import Head from "next/head";
 
 const SEO = ({ 
   pageTitle = "Visionary Institute of Science, Technology and Mathematics Academy", 
-  description = "VISTEM Academy - Leading boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Offering ZIMSEC, Cambridge & HEXCO qualifications with over 78% pass rates. Excellence in Science, Technology, Mathematics, Commerce & Arts.",
-  keywords = "VISTEM Academy, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Zimbabwe, private school Norton, science technology mathematics academy, quality education Nharira, Caxton Buffalo Nyathi principal",
+  description = "VISTE SENIOR ACADEMY - Leading boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Offering ZIMSEC, Cambridge & HEXCO qualifications with over 76% pass rates. Excellence in Science, Technology, Mathematics, Commerce & Arts.",
+  keywords = "VISTE SENIOR ACADEMY, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Zimbabwe, private school Norton, science technology mathematics academy, quality education Nharira, Caxton Buffalo Nyathi principal",
   image = "/assets/img/logo/logo.png",
   url = "https://viste-online.co.zw"
 }) => (
   <>
     <Head>
       {/* Primary Meta Tags */}
-      <title>{pageTitle} | VISTEM Academy Norton - Excellence in Education</title>
-      <meta name="title" content={`${pageTitle} | VISTEM Academy Norton - Excellence in Education`} />
+      <title>{pageTitle} | VISTE SENIOR ACADEMY Norton - Excellence in Education</title>
+      <meta name="title" content={`${pageTitle} | VISTE SENIOR ACADEMY Norton - Excellence in Education`} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content="Visionary Institute of Science, Technology and Mathematics Academy" />
@@ -25,16 +25,16 @@ const SEO = ({
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
-      <meta property="og:title" content={`${pageTitle} | VISTEM Academy Norton`} />
+      <meta property="og:title" content={`${pageTitle} | VISTE SENIOR ACADEMY Norton`} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${url}${image}`} />
-      <meta property="og:site_name" content="VISTEM Academy Norton" />
+      <meta property="og:site_name" content="VISTE SENIOR ACADEMY Norton" />
       <meta property="og:locale" content="en_ZW" />
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={url} />
-      <meta property="twitter:title" content={`${pageTitle} | VISTEM Academy Norton`} />
+      <meta property="twitter:title" content={`${pageTitle} | VISTE SENIOR ACADEMY Norton`} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={`${url}${image}`} />
       
@@ -54,7 +54,7 @@ const SEO = ({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             "name": "Visionary Institute of Science, Technology and Mathematics Academy",
-            "alternateName": ["VISTEM Academy", "VISTEM Academy Norton"],
+            "alternateName": ["VISTE SENIOR ACADEMY", "VISTE SENIOR ACADEMY Norton"],
             "url": url,
             "logo": `${url}${image}`,
             "description": description,

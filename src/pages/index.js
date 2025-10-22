@@ -16,8 +16,8 @@ export default function Home() {
     <>
       <SEO 
         pageTitle="Home"
-        description="VISTEM Academy Norton - Premier boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Achieving 78%+ pass rates in ZIMSEC & Cambridge. Excellence in Science, Technology, Mathematics, Commerce & Arts education."
-        keywords="VISTEM Academy Norton, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Nharira, science technology mathematics school Norton, Caxton Buffalo Nyathi principal"
+        description="VISTE SENIOR ACADEMY Norton - Premier boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Achieving 76%+ pass rates in ZIMSEC & Cambridge. Excellence in Science, Technology, Mathematics, Commerce & Arts education."
+        keywords="VISTE SENIOR ACADEMY Norton, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Nharira, science technology mathematics school Norton, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw"
       />
       <LoadingScreen />
@@ -27,7 +27,7 @@ export default function Home() {
       <AboutArea 
         principalImage="/assets/img/about/22.png"
         principalName="Caxton (Buffalo) Nyathi"
-        schoolName="Principal at VISTEM"
+        schoolName="Principal at VISTE SENIOR ACADEMY"
         about_pt=""
       />
       <CounterArea />

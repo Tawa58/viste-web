@@ -10,8 +10,8 @@ const SignIn = () => {
     <>
       <SEO 
         pageTitle="Gallery" 
-        description="Photo gallery of VISTEM Academy Norton showcasing school facilities, student life and activities under Principal Caxton Buffalo Nyathi in Norton, Nharira, Zimbabwe."
-        keywords="VISTEM Academy gallery Norton, school photos Norton Zimbabwe, campus facilities Nharira, student life Norton, Caxton Buffalo Nyathi principal"
+        description="Photo gallery of VISTE SENIOR ACADEMY Norton showcasing school facilities, student life and activities under Principal Caxton Buffalo Nyathi in Norton, Nharira, Zimbabwe."
+        keywords="VISTE SENIOR ACADEMY gallery Norton, school photos Norton Zimbabwe, campus facilities Nharira, student life Norton, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw/gallery"
       />
       <Header />

@@ -82,7 +82,7 @@ const HeroArea = () => {
                     style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}
                     data-swiper-parallax="-40"
                   >
-                    VISSIONARY INSTITUTE OF SCIENCE AND TECHNOLOGY
+                    VISIONARY INSTITUTE OF SCIENCE AND TECHNOLOGY
                   </span>
                   <h2
                     className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 drop-shadow-lg"

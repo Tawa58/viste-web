@@ -86,7 +86,7 @@ const DynamicPageHeader = () => {
                     <Link href="/">
                       <a>
                         <span style={{ display: 'block', maxWidth: '360px', fontSize: '16px', fontWeight: 700, color: '#0d6efd', lineHeight: '1.15', textAlign: 'left', margin: 0, letterSpacing: 'normal', wordSpacing: 'normal', paddingLeft: '8px' }}>
-                          Vissionary Institute of Science and Technology
+                          Visionary Institute of Science and Technology
                         </span>
                       </a>
                     </Link>

@@ -11,8 +11,8 @@ const AboutUs = () => {
     <>
       <SEO 
         pageTitle="About Us" 
-        description="Learn about VISTEM Academy - Norton's premier boarding school since 2020 in Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Excellence in education with modern facilities, dedicated teachers and outstanding results."
-        keywords="about VISTEM Academy Norton, boarding school Norton Zimbabwe, educational excellence Nharira, school history Norton, modern facilities Nharira Zimbabwe, Caxton Buffalo Nyathi principal"
+        description="Learn about VISTE SENIOR ACADEMY - Norton's premier boarding school since 2020 in Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Excellence in education with modern facilities, dedicated teachers and outstanding results."
+        keywords="about VISTE SENIOR ACADEMY Norton, boarding school Norton Zimbabwe, educational excellence Nharira, school history Norton, modern facilities Nharira Zimbabwe, Caxton Buffalo Nyathi principal"
         url="https://viste-online.co.zw/about"
       />
       <Header />
