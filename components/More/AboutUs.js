@@ -22,19 +22,23 @@ const AboutUs = () => {
         </div>
 
         {/* History, Mission, Vision */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
               title: "Our Journey",
-              text: "Founded in   2020 , Visionary Institute of Science and Technology has continually evolved, setting new standards in educational excellence.",
+              text: "Founded in 2020, Visionary Institute of Science and Technology has continually evolved, setting new standards in educational excellence.",
             },
             {
               title: "Our Mission",
-              text: "To empower students with critical thinking skills and a lifelong love of learning.",
+              text: "To provide affordable, high-quality education that empowers learners through Science, Technology, Engineering, and Mathematics, fostering creativity, critical thinking, moral integrity, and lifelong learning for the advancement of both individual and community well-being.",
             },
             {
-              title: "Our Vision",
-              text: "To be recognized globally as a pioneer in education, inspiring generations to lead and innovate.",
+              title: "Our Vision", 
+              text: "To be a centre of excellence in Science, Technology, Engineering, and Mathematics (STEM) education, nurturing innovative, disciplined, and globally minded learners who lead with faith, integrity, and purpose.",
+            },
+            {
+              title: "Our Core Values",
+              text: "At VISTE SENIOR ACADEMY, our actions are guided by principles that define our identity and inspire excellence in all we do. We uphold integrity and honesty, showing respect for every individual and remaining committed and accountable to our mission. We value teamwork and empathy, embrace inclusivity, and pursue excellence through innovation and lifelong learning.",
             },
           ].map((item, index) => (
             <div

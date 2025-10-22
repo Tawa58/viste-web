@@ -44,7 +44,17 @@ const PrincipalMessage = () => {
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Our Mission</h4>
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  As a full-time boarding school, we provide a nurturing environment where academic excellence, character development, and innovation converge. Our modern facilities and dedicated faculty ensure every student reaches their full potential through comprehensive education and practical skills training.
+                  To provide affordable, high-quality education that empowers learners through Science, Technology, Engineering, and Mathematics, fostering creativity, critical thinking, moral integrity, and lifelong learning for the advancement of both individual and community well-being.
+                </p>
+
+                <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Our Vision</h4>
+                <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
+                  To be a centre of excellence in Science, Technology, Engineering, and Mathematics (STEM) education, nurturing innovative, disciplined, and globally minded learners who lead with faith, integrity, and purpose.
+                </p>
+
+                <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Our Core Values</h4>
+                <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
+                  At VISTE SENIOR ACADEMY, our actions are guided by principles that define our identity and inspire excellence in all we do. We uphold integrity and honesty, showing respect for every individual and remaining committed and accountable to our mission. We value teamwork and empathy, embrace inclusivity, and pursue excellence through innovation and lifelong learning. Together, these values shape a culture of excellence where every learner is inspired to reach their highest potential and contribute positively to the world.
                 </p>
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Academic Excellence</h4>
