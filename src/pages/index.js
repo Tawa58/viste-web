@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <SEO 
-        pageTitle="Home"
-        description="VISTE SENIOR ACADEMY Norton - Premier boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Achieving 76%+ pass rates in ZIMSEC & Cambridge. Excellence in Science, Technology, Mathematics, Commerce & Arts education."
-        keywords="VISTE SENIOR ACADEMY Norton, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Nharira, science technology mathematics school Norton, Caxton Buffalo Nyathi principal"
-        url="https://viste-online.co.zw"
+        pageTitle="VISTE SENIOR ACADEMY - Best STEM School in Norton, Zimbabwe"
+        description="VISTE SENIOR ACADEMY (Visionary Institute) - #1 STEM boarding school Norton, Zimbabwe. 76%+ ZIMSEC & Cambridge pass rates. Science, Technology, Engineering, Mathematics excellence. Principal Caxton Buffalo Nyathi. Enroll today!"
+        keywords="VISTE SENIOR ACADEMY, best school Norton Zimbabwe, STEM education Zimbabwe, boarding school Norton, science technology mathematics Norton, ZIMSEC Cambridge Norton, top schools Zimbabwe, Nharira boarding school, Caxton Buffalo Nyathi, private school Zimbabwe, engineering education Norton"
+        url="https://www.viste-online.co.zw"
       />
       <LoadingScreen />
       <Header />
@@ -27,7 +27,7 @@ export default function Home() {
       <AboutArea 
         principalImage="/assets/img/about/22.png"
         principalName="Caxton (Buffalo) Nyathi"
-        schoolName="Principal at VISTE SENIOR ACADEMY"
+        schoolName="VISTE SENIOR ACADEMY"
         about_pt=""
       />
       <CounterArea />

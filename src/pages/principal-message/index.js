@@ -54,7 +54,7 @@ const PrincipalMessage = () => {
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Our Core Values</h4>
                 <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                  At VISTE SENIOR ACADEMY, our actions are guided by principles that define our identity and inspire excellence in all we do. We uphold integrity and honesty, showing respect for every individual and remaining committed and accountable to our mission. We value teamwork and empathy, embrace inclusivity, and pursue excellence through innovation and lifelong learning. Together, these values shape a culture of excellence where every learner is inspired to reach their highest potential and contribute positively to the world.
+                  At VISTE SENIOR  & JUNIOR ACADEMY, our actions are guided by principles that define our identity and inspire excellence in all we do. We uphold integrity and honesty, showing respect for every individual and remaining committed and accountable to our mission. We value teamwork and empathy, embrace inclusivity, and pursue excellence through innovation and lifelong learning. Together, these values shape a culture of excellence where every learner is inspired to reach their highest potential and contribute positively to the world.
                 </p>
 
                 <h4 style={{ fontWeight: 600, marginBottom: "1rem", color: '#1a237e', fontSize: '1.2rem' }}>Academic Excellence</h4>

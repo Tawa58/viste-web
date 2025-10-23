@@ -1,11 +1,11 @@
 import Head from "next/head";
 
 const SEO = ({ 
-  pageTitle = "Visionary Institute of Science, Technology and Mathematics Academy", 
-  description = "VISTE SENIOR ACADEMY - Leading boarding school in Norton, Nharira, Zimbabwe under Principal Caxton Buffalo Nyathi. Offering ZIMSEC, Cambridge & HEXCO qualifications with over 76% pass rates. Excellence in Science, Technology, Mathematics, Commerce & Arts.",
-  keywords = "VISTE SENIOR ACADEMY, boarding school Norton Zimbabwe, Nharira school, ZIMSEC results Norton, Cambridge education Zimbabwe, private school Norton, science technology mathematics academy, quality education Nharira, Caxton Buffalo Nyathi principal",
+  pageTitle = "VISTE SENIOR ACADEMY - Premier STEM Education in Norton, Zimbabwe", 
+  description = "VISTE SENIOR ACADEMY (Visionary Institute of Science & Technology) - Zimbabwe's leading STEM boarding school in Norton, Nharira. 76%+ pass rates in ZIMSEC & Cambridge. Excellence in Science, Technology, Engineering, Mathematics. Principal Caxton Buffalo Nyathi.",
+  keywords = "VISTE SENIOR ACADEMY, VISTE Academy Zimbabwe, Norton boarding school, STEM education Zimbabwe, science technology mathematics Norton, ZIMSEC Cambridge results Norton, best schools Norton Zimbabwe, Nharira boarding school, Caxton Buffalo Nyathi principal, private schools Zimbabwe, engineering mathematics education",
   image = "/assets/img/logo/logo.png",
-  url = "https://viste-online.co.zw"
+  url = "https://www.viste-online.co.zw"
 }) => (
   <>
     <Head>
@@ -15,9 +15,29 @@ const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content="Visionary Institute of Science, Technology and Mathematics Academy" />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      
+      {/* Advanced SEO Meta Tags */}
+      <meta name="language" content="English" />
+      <meta name="revisit-after" content="1 days" />
+      <meta name="distribution" content="global" />
+      <meta name="rating" content="general" />
+      <meta name="theme-color" content="#1a237e" />
+      <meta name="msapplication-TileColor" content="#1a237e" />
+      
+      {/* Geographic targeting */}
+      <meta name="geo.region" content="ZW-MA" />
+      <meta name="geo.placename" content="Norton, Zimbabwe" />
+      <meta name="geo.position" content="-17.8833;30.7000" />
+      <meta name="ICBM" content="-17.8833, 30.7000" />
+      
+      {/* Education specific */}
+      <meta name="category" content="education" />
+      <meta name="coverage" content="Zimbabwe" />
+      <meta name="target" content="students, parents, education" />
+      <meta name="audience" content="students, parents, educators" />
       
       {/* Canonical URL */}
       <link rel="canonical" href={url} />
@@ -52,46 +72,77 @@ const SEO = ({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "Visionary Institute of Science, Technology and Mathematics Academy",
-            "alternateName": ["VISTE SENIOR ACADEMY", "VISTE SENIOR ACADEMY Norton"],
+            "@type": ["EducationalOrganization", "School"],
+            "name": "VISTE SENIOR ACADEMY",
+            "legalName": "Visionary Institute of Science, Technology and Mathematics Academy", 
+            "alternateName": ["VISTE", "VISTE Academy", "VISTE SENIOR ACADEMY Norton", "Visionary Institute"],
             "url": url,
             "logo": `${url}${image}`,
+            "image": `${url}${image}`,
             "description": description,
+            "slogan": "Excellence in STEM Education",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Norton",
-              "addressRegion": "Nharira",
-              "addressCountry": "Zimbabwe",
-              "streetAddress": "Norton, Nharira"
+              "addressRegion": "Mashonaland West",
+              "addressCountry": "ZW",
+              "streetAddress": "Norton, Nharira",
+              "postalCode": "Norton"
             },
             "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "-17.883",
-              "longitude": "30.700"
+              "@type": "GeoCoordinates", 
+              "latitude": "-17.8833",
+              "longitude": "30.7000"
             },
-            "contactPoint": {
+            "contactPoint": [{
               "@type": "ContactPoint",
               "telephone": "+263789984774",
               "contactType": "Admissions",
-              "areaServed": ["Norton", "Nharira", "Zimbabwe"]
+              "areaServed": ["Norton", "Nharira", "Zimbabwe", "Mashonaland West"],
+              "availableLanguage": ["English", "Shona"],
+              "contactOption": "TollFree"
+            }],
+            "founder": {
+              "@type": "Person", 
+              "name": "Caxton Buffalo Nyathi"
             },
-            "employee": {
+            "employee": [{
               "@type": "Person",
               "name": "Caxton Buffalo Nyathi",
               "jobTitle": "Principal",
               "worksFor": {
                 "@type": "EducationalOrganization",
-                "name": "Visionary Institute of Science, Technology and Mathematics Academy"
+                "name": "VISTE SENIOR ACADEMY"
               }
-            },
-            "educationalCredentialAwarded": ["ZIMSEC", "Cambridge", "HEXCO"],
+            }],
+            "educationalLevel": "Secondary Education",
+            "educationalCredentialAwarded": ["ZIMSEC O-Level", "ZIMSEC A-Level", "Cambridge IGCSE", "Cambridge A-Level", "HEXCO"],
             "hasCredential": {
               "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "Secondary Education"
+              "credentialCategory": "Secondary Education",
+              "educationalLevel": "SecondarySchool"
             },
             "foundingDate": "2020",
-            "keywords": ["Science", "Technology", "Mathematics", "Boarding School", "Norton", "Nharira", "Caxton Buffalo Nyathi"]
+            "numberOfStudents": "500+",
+            "priceRange": "Affordable",
+            "areaServed": {
+              "@type": "Place",
+              "name": "Zimbabwe"
+            },
+            "makesOffer": {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "EducationalOccupationalProgram", 
+                "name": "STEM Education Program",
+                "description": "Science, Technology, Engineering and Mathematics education"
+              }
+            },
+            "keywords": ["VISTE", "STEM education", "boarding school", "Norton Zimbabwe", "science technology mathematics", "Caxton Buffalo Nyathi", "ZIMSEC Cambridge"],
+            "sameAs": [
+              `${url}`,
+              `${url}/about`,
+              `${url}/principal-message`
+            ]
           })
         }}
       />

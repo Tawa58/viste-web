@@ -55,7 +55,7 @@ const Footer = () => {
                             display: "inline-block",
                           }}
                         >
-                          Visionary Institute of Science &amp; Technology Academy
+                          Visionary Institute of Science and Technology Education
                         </span>
                       </div>
                     </div>
@@ -119,7 +119,7 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-xxl-12">
                     <div className="footer__copyright text-center">
-                      <p>© 2025 VISTE SENIOR ACADEMY .All rights reseved</p>
+                      <p>© 2025 Visionary Institute of Science and Technology Education. All rights reserved</p>
                     </div>
                   </div>
                 </div>

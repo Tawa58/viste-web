@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://viste-online.co.zw/sitemap.xml
+Sitemap: https://www.viste-online.co.zw/sitemap.xml
 
 # Disallow admin or private areas if any
 # Disallow: /admin/
